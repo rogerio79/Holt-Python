@@ -87,7 +87,7 @@ def holt(alpha, beta, dados, h):
     plt.plot(x_linha, y_linha, label='observados')
     plt.plot(x_linha, y2_linha, 'ro', label='previstos')
     plt.legend()
-
+    plt.title('Holt Exponencial Simples')
     plt.grid()
 
     plt.figtext(0.20, 0.035, 'Previsoes : ', backgroundcolor='blue', color='white', weight='roman', size='x-small')
