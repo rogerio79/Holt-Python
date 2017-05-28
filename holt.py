@@ -105,4 +105,4 @@ def holt(alpha, beta, dados, h):
     plt.show()
 
 
-holt(0.4, 0.4, 'valores.csv', 4)  # valores de alpha, beta e arquivo com os dados
+holt(0.4, 0.4, 'valores.csv', 4)  # valores de alpha, beta, arquivo com os dados, e total de previsoes
