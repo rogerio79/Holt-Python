@@ -1,3 +1,4 @@
+# ******* Python versao 3.6.1 *********
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
