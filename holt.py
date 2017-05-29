@@ -59,7 +59,6 @@ def holt(alpha, beta, dados, h):
 
         # calculo valor previsto e insere resultado em z
         y = l + b
-
         z[t][1].append(y)
 
         mae = y - z[t][1][0] + mae
